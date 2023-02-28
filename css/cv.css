@@ -1,0 +1,107 @@
+
+   header{
+    background-color: black;
+    display:table;
+    width: 100%;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+     content: '';
+   }
+   img{
+    width:400px;
+    height: 100px;
+    float: left;
+    padding: 8px;
+   }
+  .barra {
+     width: 900px;
+     margin: 0 auto;
+  }
+
+  nav{
+    float: right;
+  }
+
+  nav ul li {
+    list-style: none;
+    margin-left: 75px;
+    padding: 25px 0;
+    float:left;
+    position: relative;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+
+nav ul li a::before{
+    display: block;
+    content: '';
+    width: 0%;
+    background: white;
+    height: 5px;
+    top: 0;
+    position: absolute;
+    transition: width 1;
+}
+
+nav ul li a:hover::before{
+width:100%;
+}
+
+.sobremi{
+ display: inline-flexbox;
+text-align: justify;
+}
+
+section{
+    
+    padding: 30px 20px 20px 30px;
+    width: 50%
+
+}
+.flex{
+    display: flex;
+}
+
+.UltimaParte{
+    display: flex;
+}
+#foto {
+    width: 250px;
+    height: 250px;
+}
+
+body{
+    background-color: rgb(231, 231, 253);
+    font-family: 'Roboto Slab', serif;
+}
+p{
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+}
+
+ul li{
+  font-family: 'Roboto Slab', serif; 
+}
+#img{
+  display:none;
+ 
+}
+#C1{
+  width:400px;
+  height: 400px;
+}
+#C2{
+  width:400px;
+  height: 400px;
+}
+#C3{
+  width:400px;
+  height: 400px;
+}
+
+
+
